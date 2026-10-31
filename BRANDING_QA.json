@@ -1,31 +1,15 @@
 {
-  "brand": "Leicester Loft Insulation",
-  "palette": {
-    "navy": "#203f61",
-    "amber": "#edb34e",
-    "text": "#182d42"
-  },
-  "icons": {
-    "favicon-32.png": [
-      32,
-      32
-    ],
-    "favicon-512.png": [
-      512,
-      512
-    ],
-    "favicon.png": [
-      512,
-      512
-    ],
-    "apple-touch-icon.png": [
-      180,
-      180
-    ]
-  },
-  "notes": [
-    "Business identity awaits confirmation.",
-    "No custom domain supplied; CNAME not included.",
-    "Contact form previews locally and does not send."
-  ]
+  "brand": "Eco Leicester Loft insulation",
+  "domain": "https://ecoleicesterloftinsulation.co.uk",
+  "required_pages": [
+    "index.html",
+    "contact.html",
+    "services/loft-insulation-top-ups.html",
+    "locations/oadby.html"
+  ],
+  "cta": "Request A Free Quote",
+  "form_status": "preview_only",
+  "experience_claim_source": "client-provided",
+  "insulation_depth": "270mm total for mineral wool, subject to suitability",
+  "competitor_research_published": false
 }

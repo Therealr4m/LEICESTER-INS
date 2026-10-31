@@ -84,10 +84,12 @@ lightbox.addEventListener('click', (event) => {
 const enquiryForm = document.querySelector('#enquiry');
 if (enquiryForm) {
   const services = {
-    'loft-insulation': 'Full loft insulation',
-    'loft-insulation-top-ups': 'Insulation top-ups',
-    'loft-boarding': 'Loft boarding',
-    'loft-insulation-removal': 'Insulation removal',
+    'full-loft-insulation': 'Full loft insulation fitting',
+    'loft-insulation': 'Full loft insulation fitting',
+    'loft-insulation-top-ups': 'Loft insulation top-ups',
+    'loft-insulation-removal': 'Loft insulation Removal',
+    'rigid-pir-insulation': 'Rigid Pir insulation',
+    'loft-draught-proofing': 'Loft draught proofing',
   };
   const requestedService = new URLSearchParams(window.location.search).get('service');
   if (services[requestedService]) enquiryForm.elements.service.value = services[requestedService];

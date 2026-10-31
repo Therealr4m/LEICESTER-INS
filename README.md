@@ -1,36 +1,30 @@
-# Leicester Loft Insulation
+# Eco Leicester Loft insulation
 
-A static website with no build step. Upload the contents of this folder directly to the root of your `eco-abid` branch. Do not upload the ZIP itself.
+Upload the contents of this folder directly to your GitHub branch root. No build step is required.
 
-## Structure
+## Requested pages
 
-- `index.html` — homepage
-- `services/` — four separate service pages
-- `locations/` — coverage index and Leicester page
-- `blogs/` — guides index and two practical guides
-- `images/` — supplied WebP photos
-- `branding-assets/` — editable SVG logo and mark
-- `styles.css` — shared responsive styles
-- `nav.js` — shared navigation, gallery and contact-preview behaviour
-- `contact.html`, `about.html`, `gallery.html`, `faqs.html`, `privacy.html` — information pages
-- root PNG / ICO files — favicon and Apple icons
-- `sitemap.xml`, `robots.txt` — SEO files
-- `.nojekyll` — static GitHub Pages compatibility
+- `index.html` — supplied Leicester homepage H1, H2, introduction and five core services
+- `contact.html` — quote request / contact page
+- `services/loft-insulation-top-ups.html` — supplied top-ups page
+- `locations/oadby.html` — supplied Oadby location page
 
-## Local preview
+Additional support files: `privacy.html`, `404.html`, CSS, JavaScript, images, branding assets, favicon files, robots.txt, sitemap.xml and CNAME. `blogs/` is reserved for later content. No additional dedicated service pages have been built for this brief; those navigation items lead to the relevant contact enquiry.
 
-Open `index.html`, or run `python -m http.server 8000` in this folder. No packages are required.
+## Domain
 
-## Before public launch
+All canonical tags, structured data, Open Graph URLs and sitemap entries use https://ecoleicesterloftinsulation.co.uk. CNAME contains ecoleicesterloftinsulation.co.uk. The domain still needs to be configured at your hosting provider and in DNS; including CNAME does not do that automatically.
 
-The contact form is a local preview and sends nothing. Confirm the business name, phone, email, service coverage and enquiry endpoint; finalise privacy details and remove review notices once those details are agreed.
+## Before launch
 
-Canonicals, structured data, social URLs, robots.txt and sitemap currently use the private review origin. Replace `https://leicester-loft-review-sm.happypier.chatgpt.site` with the actual public site origin (including any project path if used) before launching.
+The phone number, email and live form endpoint have not been supplied. The contact form previews locally only and sends nothing. Confirm those details, connect the endpoint with server validation/spam handling, update the privacy information and remove review notices before launch.
 
-A `CNAME` file is intentionally absent because the Leicester custom domain has not been provided. Once confirmed, create `CNAME` at the repository root containing just that domain, and configure your host and DNS. Do not use the Swansea reference domain.
+The 14 years of experience and local service claims were supplied by the client. The 270mm wording is qualified for mineral wool; it does not apply to rigid PIR boards. Competitor rankings remain research notes and are not published as website copy.
 
-Gallery photos were supplied for the design; do not present them as verified customer work without confirmation. No customer testimonials or experience claims have been invented.
+## Existing repository cleanup
 
-## Editing
+If replacing the earlier draft, remove obsolete website files so visitors and search engines do not see the wrong branding or old pages. Previous extra pages include about.html, gallery.html, faqs.html, services/loft-insulation.html, services/loft-boarding.html, services/loft-insulation-removal.html, locations/index.html, locations/leicester.html and the old blog HTML pages. Keep unrelated repository files and Git configuration. The new navigation and sitemap reference only the new brief.
 
-Each page contains its own header and footer, so update shared navigation consistently across HTML files. Nested pages use `../` paths to shared assets. Keep filenames unchanged unless you also update links and sitemap entries.
+## Preview
+
+Open index.html locally, or run `python -m http.server 8000` in this folder. Styles are in styles.css and interactive behaviour is in nav.js. Nested pages use ../ paths. Each page has its own header/footer; keep navigation consistent when editing.
