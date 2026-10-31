@@ -1,0 +1,31 @@
+{
+  "brand": "Leicester Loft Insulation",
+  "palette": {
+    "navy": "#203f61",
+    "amber": "#edb34e",
+    "text": "#182d42"
+  },
+  "icons": {
+    "favicon-32.png": [
+      32,
+      32
+    ],
+    "favicon-512.png": [
+      512,
+      512
+    ],
+    "favicon.png": [
+      512,
+      512
+    ],
+    "apple-touch-icon.png": [
+      180,
+      180
+    ]
+  },
+  "notes": [
+    "Business identity awaits confirmation.",
+    "No custom domain supplied; CNAME not included.",
+    "Contact form previews locally and does not send."
+  ]
+}
